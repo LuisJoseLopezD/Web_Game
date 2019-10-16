@@ -2,29 +2,58 @@
     width: 292px; height: 468px;
 }
 
+#profile {
+    width: 290px; height: 320px;
+  }
+  
+.card {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  body {
+    font-family: 'Indie Flower', cursive;
+  }
+
 #section1 {
-    background-color: #FFB2B2;
-    text-align:center;
+    background-color: #ffb2b2;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
 }
 
 #section2 {
     background-color: #FFFACC;
-    text-align:center;
+    text-align: center;
+    padding: 40px;
 }
 
 #section3 {
     background-color: #A5D8D8;
-    text-align:center;
-}
-
-#profile {
-  width: 290px; height: 320px;
-}
-
-.card {
-    background-color: transparent;
+    text-align: center;
+    padding: 80px;
+    margin: auto;
 }
 
 footer {
-    text-align:center;
+    text-align: center;
+    background: white;
+    padding: 10px;
 }
+
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    }
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
